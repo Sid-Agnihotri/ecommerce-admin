@@ -5,28 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0dec458-3ef7-4ad1-a615-80b0450ce1a1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/next.config.mjs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/postcss.config.mjs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/next.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vercel.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.prettierignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Providers/ModalProvider.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(auth)/(routes)/sign-in/[[...sign-in]]/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(auth)/(routes)/sign-up/[[...sign-up]]/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(auth)/layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(root)/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/modals/StoreModal.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/ui/modal.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hooks/useStoreModal.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/prismadb.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middleware.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myAllFileTypesSelected" value="true" />
+    <option name="mySelectedFileTypes">
+      <set />
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -34,9 +43,12 @@
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="OptimizeOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2j23kmIbMBPTOOcfBITryvkbHi3" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
@@ -48,15 +60,23 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "code.cleanup.on.save": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/sidhant.sharma/Sid-Projects/Ecommerce/ecommerce-admin",
+    "last_opened_file_path": "/Users/sidhant.sharma/Sid-Projects/Ecommerce/ecommerce-admin/app/(auth)/(routes)",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.stylelint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.stylelint": "",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "npm.dev.executor": "Run",
     "npm.start.executor": "Run",
+    "prettierjs.PrettierConfiguration.Package": "/Users/sidhant.sharma/Sid-Projects/Ecommerce/ecommerce-admin/node_modules/prettier",
+    "rearrange.code.on.save": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "ts.external.directory.path": "/Users/sidhant.sharma/Sid-Projects/Ecommerce/ecommerce-admin/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
@@ -71,6 +91,9 @@
     </option>
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/(auth)/(routes)" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app" />
       <recent name="$PROJECT_DIR$" />
@@ -104,6 +127,7 @@
       <option name="presentableId" value="Default" />
       <updated>1720571490031</updated>
       <workItem from="1720571491231" duration="4918000" />
+      <workItem from="1720621897359" duration="21532000" />
     </task>
     <servers />
   </component>
