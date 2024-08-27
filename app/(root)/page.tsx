@@ -8,14 +8,15 @@ interface SetupPageProps {
 }
 
 const SetupPage = ({ onClose }: SetupPageProps) => {
-  const { isOpen, onOpen } = useStoreModal();
+  const isOpen = useStoreModal((state) => state.isOpen);
+  const onOpen = useStoreModal((state) => state.onOpen);
   useEffect(() => {
     if (!isOpen) {
       onOpen();
     }
   }, [isOpen, onOpen]);
 
-  return <div className="p-4">Root Page</div>;
+  return <div className="p-4">RootPage</div>;
 };
 
 export default SetupPage;
